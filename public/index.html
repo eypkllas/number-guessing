@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Number Guessing Gamee</title>
+    <link rel="stylesheet" type="text/css" href="ct.css">
+    <script src="ct.js"></script>
+</head>
+<body>
+   
+
+            <div class="title">
+                <h1>Number Guessing Game</h1>
+            </div>
+            
+            <div class="container">
+                <div class="game-container">
+            
+            <button2 onclick="resetGame()" class="home" >Home</button2>
+         
+            
+
+            <input type="text" id="username" placeholder="Username" maxlength="11">  <!-- to prevent long names  -->
+
+            
+            <button onclick="playGame()" class="btn" >Play</button>
+
+            <div class="count-box" id="countBox" style="display: none;">0</div>
+      
+            <p id="result"></p>   
+            
+
+            <input type="text" id="guessInput" placeholder="Enter a number betwen 1-10" style="display: none;" >
+            <button onclick="submitGuess()" class="btn" id="submitBtn" style="display: none;">Submit</button>
+        </div>
+      
+
+        
+    </div>
+
+
+    <div class="scoreboard" id="scoreboard">
+        <h2>Scoreboard</h2>
+        <ol id="scoreList"></ol>
+    </div>
+</body>
+</html>
+
+
+
+
